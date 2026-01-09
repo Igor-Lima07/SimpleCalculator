@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f89959;
+}
+
+/* Container principal */
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #233D4D;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 350px;
+    height: 470px;
+}
+
+/* Container do display e o proprio display */
+
+#displayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100px;
+}
+
+#display {
+    margin-top: 30px;
+    position: relative;
+    width: 310px;
+    height: 60px;
+    border: solid black 3px;
+    border-radius: 20px;
+    background-color: #F5FBE6;
+    
+}
+
+/* Container onde os container de operadores e numeros estão */
+
+#inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+/* Estilo dos botoes de operadores e seu container*/
+
+#operatorContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operatorBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #215E61;
+    font-size: 30px;
+    color: white;
+    transition: 0.3s;
+    border: none;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+/* Estilo dos botoes de numeros e seu container*/
+
+#numberContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 370px;
+    gap: 5px;
+    row-gap: 1px;
+}
+
+.numBtn {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #3BC1A8;
+    font-size: 30px;
+    border: none;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+
+/* Animações (hover, key frames etc)*/
+
+.numBtn:hover {
+    cursor: pointer;
+    background-color: #9ae7d9;
+}
+
+.operatorBtn:hover {
+    cursor: pointer;
+    background-color: #53979b;
+}
+
