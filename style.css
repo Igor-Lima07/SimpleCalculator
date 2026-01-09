@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -33,9 +35,15 @@ body {
     align-items: center;
     width: auto;
     height: 100px;
+    font-family: "VT323", monospace;
 }
 
 #display {
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    justify-content: left;
+    align-items: center;
     margin-top: 30px;
     position: relative;
     width: 310px;
