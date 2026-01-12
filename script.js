@@ -5,7 +5,6 @@ const displayText = document.getElementById("displayText")
 
 function appendToDisplay (input) {
     displayText.value += input;
-    
 }
 
 function clearDisplay() {
