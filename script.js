@@ -13,5 +13,10 @@ function clearDisplay() {
 }
 
 function calculate() {
-    displayText.value = eval(displayText.value)
+    try {
+        displayText.value = eval(displayText.value)
+    }
+    catch(error){
+        displayText.value = "Erro ao calcular"
+    }
 }

@@ -24,7 +24,7 @@ body {
     border: solid black 3px;
     border-radius: 20px;
     width: 350px;
-    height: 470px;
+    height: auto;
 }
 
 /* Container do display e o proprio display */
@@ -60,7 +60,7 @@ body {
     font-size: 30px;
     justify-content: left;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
     position: relative;
     width: 310px;
     height: 60px;
