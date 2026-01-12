@@ -54,7 +54,23 @@ body {
     
 }
 
-/* Container onde os container de operadores e numeros estão */
+#displayText {
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10vh;
+    position: relative;
+    width: 310px;
+    height: 60px;
+    border: solid black 3px;
+    border-radius: 20px;
+    background-color: #F5FBE6;
+    font-family: "VT323", monospace;
+}
+
+/* Container onde os subcontainer de operadores e numeros estão */
 
 #inputContainer {
     display: flex;
